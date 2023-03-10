@@ -41,20 +41,24 @@
 
 /* //THEME 2 */
 :root{
-  --icons-color: #FFDF2B;
-  --icons-light-color: #ffdf2b57;
-  --icons-bg-color: #FFDF2B;
-  --shadow-dark-color: #555557;
-  --bg-shadow-dark-color: #555557;
-  --shadow-light-color: #232325;
-  --main-bg-color: #ffff;
-  --overlay: #2323255e;
+  --icons-color: #3a0e77;
+  --icons-light-color: #eeeeee;
+  --icons-bg-color: #e4e4e4;
+  --shadow-dark-color: #d5d4d4;
+  --bg-shadow-dark-color: #ffffff;
+  --shadow-light-color: #ffffff;
+/* <<<<<<< HEAD */
+  --main-bg-color: #e5e5e5;
+/* ======= */
+  --main-bg-color: #e5e3e3;
+/* >>>>>>> f116dc3 (adding files) */
+  --overlay: #efefef5e;
 
-  --box-shadow: 1px 1px 2px #FFDF2B,
-  -1px -1px 2px #FFDF2B;
+  --box-shadow: 1px 1px 5px #525151,
+  -1px -1px 2px #ffffff;
 
-  --box-shadow-2:1px 1px 2px #FFDF2B,
-  -1px -1px 2px #FFDF2B;
+  --box-shadow-2:1px 1px 15px #717171,
+  -1px -1px 10px #464444;
 
 }
 
@@ -284,7 +288,12 @@ a {
     color-scheme: dark;
   }
   body {
+/* <<<<<<< HEAD */
     color: black;
     background: white;
+/* ======= */
+    color: rgb(28, 28, 28);
+    background: rgb(238, 238, 238);
+/* >>>>>>> f116dc3 (adding files) */
   }
 }
